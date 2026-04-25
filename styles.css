@@ -58,12 +58,14 @@ header nav a {
     text-align: center;
 }
 
+/* Small screens */
 @media (max-width: 600px) {
     .responsive-box {
         background-color: lightcoral;
     }
 }
 
+/* Large screens */
 @media (min-width: 601px) {
     .responsive-box {
         background-color: lightseagreen;
