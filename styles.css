@@ -1,0 +1,71 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header + Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Task 2: Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Task 3: Flexbox Layout */
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Task 4: Media Queries */
+.responsive-box {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .responsive-box {
+        background-color: lightcoral;
+    }
+}
+
+@media (min-width: 601px) {
+    .responsive-box {
+        background-color: lightseagreen;
+    }
+}
